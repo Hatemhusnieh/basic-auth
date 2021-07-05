@@ -15,7 +15,7 @@ app.use('/signin', userValidator, router.signIn);
 app.use('/signup', router.signUp);
 
 app.get('/', (req, res) => {
-  res.status(200).send('WoW !! you are opening a stupid lab app');
+  res.status(200).send('Judging others is a SIN!');
 });
 
 app.use('*', errorHandler);
